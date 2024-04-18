@@ -13,7 +13,8 @@ export default defineConfig({
     outline:[2,6],
     nav: [
       { text: '主页', link: '/' },
-      { text: 'Premiere', link: '/premiere/prindex' }
+      { text: 'Premiere', link: '/premiere' },
+      { text: 'cmd', link: '/cmd' }
     ],
 
     // sidebar: { "docs/premiere": set_sidebar("docs/premiere") },
