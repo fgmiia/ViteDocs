@@ -16,6 +16,9 @@ hero:
     - theme: brand
       text: cmd命令
       link: /cmd
+    - theme: brand
+      text: software
+      link: /小软件/目录
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

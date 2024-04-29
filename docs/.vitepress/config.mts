@@ -14,7 +14,8 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: 'Premiere', link: '/premiere' },
-      { text: 'cmd', link: '/cmd' }
+      { text: 'cmd', link: '/cmd' },
+      { text: '小软件', link:'/小软件/目录'}
     ],
 
     // sidebar: { "docs/premiere": set_sidebar("docs/premiere") },
