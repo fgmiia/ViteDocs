@@ -43,3 +43,9 @@ shell:RecycleBinFolder
 bbdown [视频url] -tv
 ```
 
+### UWP 应用设置代理
+
+```cmd
+FOR /F "tokens=11 delims=\" %p IN ('REG QUERY "HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings"') DO CheckNetIsolation.exe LoopbackExempt -a -p=%p
+```
+
