@@ -2,7 +2,7 @@
 
 > 隐藏运行PowerShell
 
-```visual basic
+```VB
 Set objShell = CreateObject("WScript.shell")
 objShell.Run "powershell.exe -WindowStyle Hidden -File ""D:\Software\U-detect\U-detect.ps1""", 0 ,True
 ```

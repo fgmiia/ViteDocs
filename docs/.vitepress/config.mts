@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 import { set_sidebar } from "./utils/auto-gen-sidebar.mjs";
 
 // https://vitepress.dev/reference/site-config
@@ -52,5 +53,10 @@ export default defineConfig({
         },
       },
     },    
+  },
+  markdown:{
+    codeTransformers: [
+      transformerTwoslash() 
+    ]
   }
 })
