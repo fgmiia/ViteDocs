@@ -8,6 +8,9 @@ hero:
   tagline: 记录一些学习过程中的笔记
   actions:
     - theme: brand
+      text: VitePress
+      link: /VitePress
+    - theme: brand
       text: Premiere
       link: /premiere
     # - theme: alt
