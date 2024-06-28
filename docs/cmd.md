@@ -49,3 +49,9 @@ bbdown [视频url] -tv
 FOR /F "tokens=11 delims=\" %p IN ('REG QUERY "HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings"') DO CheckNetIsolation.exe LoopbackExempt -a -p=%p
 ```
 
+### 修改音频比特率
+
+```cmd
+ffmpeg -i "初一下期末英语听力.m4a" -b:a 128K "初一下期末英语听力(128k).mp3"
+```
+
